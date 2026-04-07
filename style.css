@@ -225,3 +225,24 @@ body {
   .work-grid-layout::after { display: none; }
   .about-section { padding-top: 100px; }
 }
+/* --- Buton Secundar (Case Study / See the Vision) --- */
+.btn-vision {
+  display: inline-block;
+  padding: 6px 18px;
+  color: var(--pink-soft);
+  border: 1px solid rgba(244, 194, 215, 0.4); /* Mai subtil decât butonul principal */
+  border-radius: 50px;
+  background: transparent;
+  font-size: 0.55rem;
+  text-transform: lowercase;
+  letter-spacing: 2px;
+  transition: 0.3s;
+  margin-top: 15px; /* Spațiu față de textul de sus */
+  cursor: pointer;
+}
+
+.btn-vision:hover {
+  color: var(--pink-intense);
+  border-color: var(--pink-intense);
+  letter-spacing: 3px;
+}
